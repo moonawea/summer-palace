@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ==================header and section-1================ */
+.section-1 {
+    padding-bottom: 600px;
+}
+
+.first-container {
+    max-width: 1800px;
+}
+
+.logo {
+    width: 160px;
+    padding: 60px 0;
+}
+
+.nav {
+    gap: 30px;
+}
+
+button {
+    border: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 7px 9px;
+}
+
+nav a:hover {
+    border: 1px solid rgba(209, 169, 84, 0.90);
+    color: rgba(209, 169, 84, 0.90);
+}
+
+.text p {
+    margin: 0 auto;
+    max-width: 240px;
+}
+
+.box {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.box:hover .inner-box {
+    bottom: 0px;
+    left: 0px;
+}
+
+.inner-box {
+    position: absolute;
+    bottom: -180px;
+    transition: 0.6s;
+    background-color: #D1A954E5;
+    width: 100%;
+}
+
+.box-wrapper {
+    padding: 15px 20px;
+}
+
+.text {
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    text-align: center;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 22px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.text span {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/* ===================section-2=================== */
+.section-2 {
+    background-color: #F9F7F7;
+    padding: 330px 0 90px;
+}
+
+.container-wrapper {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.info-title {
+    margin-top: -740px;
+    text-align: center;
+}
+
+.box-card {
+    margin-left: 33px;
+    padding: 60px 0;
+}
+
+.info-subtitle {
+    font-size: 36px;
+    line-height: 52.2px;
+    color: #222222;
+    font-weight: 300;
+}
+
+.info-subtitle2 {
+    padding: 10px 0 0;
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: 300;
+    line-height: 11px;
+    letter-spacing: 0.03em;
+    /*text-align: center;*/
+}
+
+.mini-card {
+    gap: 30px;
+    width: 100%;
+}
+
+.welcome-title {
+    display: block;
+    padding: 0 0 18px;
+}
+
+.card-cols p {
+    font-size: 14px;
+    line-height: 18.9px;
+    font-weight: 300;
+    max-width: 350px;
+}
+
+.first-title {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21.6px;
+    margin: 0;
+}
+
+.description-box {
+    gap: 15px;
+}
+
+.mini-card p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+}
+
+.about-img {
+    text-align: center;
+
+}
+
+.card-cols {
+    padding: 0 0 15px;
+    max-width: 255px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.desc-img {
+    width: 46px;
+    height: 37px;
+}
+
+/* ==============section-3==================== */
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.grid-item:nth-child(1) {
+    grid-area: 1 / 1 / 5 / 4;
+    justify-self: center;
+    align-self: center;
+}
+
+.grid-item:nth-child(2) {
+    grid-area: 1 / 4 / 5 / 9;
+}
+
+.grid-item:nth-child(3) {
+    grid-area: 1 / 9 / 5 / 13;
+}
+
+.grid-item:nth-child(4) {
+    grid-area: 5 / 8 / 9 / 13;
+}
+
+.grid-item:nth-child(5) {
+    grid-area: 9 / 8 / 13 / 13;
+}
+
+.grid-item:nth-child(6) {
+    grid-area: 5 / 1 / 13 / 8;
+}
+
+.section-3 {
+    padding: 120px 0 150px;
+
+}
+
+/* =================section-4=============== */
+.section-4 {
+    margin: 75px 0 60px;
+    background: url("../img/Rectangle\ 2\ \(4\).png") center center/cover no-repeat;
+    height: 410px;
+}
+
+.section-4 h2 {
+    padding: 120px 0 70px;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 52px;
+    letter-spacing: 0.05em;
+}
+
+.about-us a {
+    text-decoration: none;
+    color: #fff;
+    padding: 22px 46px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+}
+
+.download-button:hover {
+    background-color: #D1A954;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.about-us {
+    gap: 90px;
+}
+
+/* =============section-5=============== */
+
+.section-5 {
+    padding: 60px 0 120px;
+}
+
+.get-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+}
+
+.text-offer p {
+    padding: 40px 0 60px;
+    color: #616161;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+}
+
+
+.text-offer h2 {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 52px;
+    letter-spacing: 0.05em;
+}
+
+.get-contact h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+}
+
+.icon-text {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-offer a {
+    color: #000;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+}
+
+.input-content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 10px 0 0;
+}
+
+.input {
+    border: none;
+    border-bottom: 0.5px solid #D0D0D0;
+    padding-bottom: 13px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+}
+
+.letter-content {
+    border: 0.5px solid #D0D0D0;
+    min-height: 210px;
+    padding: 15px 20px 0;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+}
+
+.submit-button {
+    width: 182px;
+    height: 45px;
+    border: none;
+    background-color: #D1A954;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 15px 0 0;
+}
+
+.submit-button:hover {
+    border: 0.5px solid #D0D0D0;
+    color: #000;
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+textarea {
+    margin: 30px 0 0;
+}
+
+/* ==============section-6=============== */
+.section-6 {
+    padding: 120px 0 0;
+    background-color: #F9F7F7;
+    width: 100%;
+}
+
+.instagram {
+    padding: 0 0 90px;
+}
+
+.pictures {
+    /* width: 1110px; */
+    margin: 0 auto;
+}
+
+.pictures img {
+    object-fit: contain;
+    height: 100%;
+}
+
+.footer {
+    padding: 40px 0;
+}
