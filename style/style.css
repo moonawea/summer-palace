@@ -34,6 +34,10 @@ a {
     padding: 7px 9px;
 }
 
+img {
+    width: 100%;
+}
+
 nav a:hover {
     border: 1px solid rgba(209, 169, 84, 0.90);
     color: rgba(209, 169, 84, 0.90);
@@ -161,9 +165,8 @@ nav a:hover {
     line-height: 19px;
 }
 
-.about-img {
-    text-align: center;
-
+.about-img img{
+    width: auto;
 }
 
 .card-cols {
@@ -364,6 +367,10 @@ textarea {
     padding: 120px 0 0;
     background-color: #F9F7F7;
     width: 100%;
+}
+
+.section-6 img {
+    width: auto;
 }
 
 .instagram {
