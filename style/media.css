@@ -1,0 +1,57 @@
+@media (max-width: 1555px) {
+    .links a:not(:last-child) {
+        margin-right: 15px;
+    }
+
+    .burger {
+        margin-right: 150px;
+    }
+
+    .logo {
+        padding-left: 80px;
+        padding-right: 80px;
+        margin: 0;
+    }
+
+    .navbar .container {
+        justify-content: unset;
+    }
+}
+
+@media (max-width: 1470px) {
+    .logo {
+        padding-left: 70px;
+        padding-right: 80px;
+    }
+
+    .burger {
+        margin-right: 40px;
+    }
+
+
+
+    .links a:last-child {
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 1350px) {
+    .section1 img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .navbar .container {
+        justify-content: space-between;
+    }
+
+    .logo {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .section1 .col-4 {
+        width: 50%;
+    }
+
+}
